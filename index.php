@@ -3,7 +3,82 @@
         <meta charset="utf-8">
         <title>Calculadora Simples</title>
         <style>
-// CSS //
+body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                color: #333;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+
+            h1 {
+                color: #005f73;
+                margin: 20px;
+            }
+
+            form {
+                background-color: #e6f7ff;
+                margin: 20px auto;
+                padding: 20px;
+                width: 300px;
+                border-radius: 8px;
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            label {
+                display: block;
+                margin-top: 10px;
+                font-weight: bold;
+            }
+
+            input[type="text"] {
+                width: 90%;
+                padding: 8px;
+                margin: 8px 0;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            fieldset {
+                border: 1px solid #005f73;
+                padding: 10px;
+                margin-top: 10px;
+                border-radius: 4px;
+            }
+
+            legend {
+                color: #005f73;
+                font-weight: bold;
+            }
+
+            input[type="radio"] {
+                margin-right: 8px;
+            }
+
+            input[type="submit"] {
+                background-color: #005f73;
+                color: #fff;
+                padding: 10px 20px;
+                margin-top: 10px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            input[type="submit"]:hover {
+                background-color: #0a9396;
+            }
+
+            h1.result {
+                background-color: #e6f7ff;
+                padding: 15px;
+                margin: 20px auto;
+                width: 60%;
+                border-radius: 8px;
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+                color: #005f73;
+            }
 
 
 
