@@ -5,7 +5,7 @@
         <style>
 body {
                 font-family: Arial, sans-serif;
-                background-color: #f4f4f4;
+                background-color: #C0C0C0;
                 color: #333;
                 text-align: center;
                 margin: 0;
@@ -18,7 +18,7 @@ body {
             }
 
             form {
-                background-color: #e6f7ff;
+                background-color: #DDA0DD;
                 margin: 20px auto;
                 padding: 20px;
                 width: 300px;
@@ -71,7 +71,7 @@ body {
             }
 
             h1.result {
-                background-color: #e6f7ff;
+                background-color: #DDA0DD;
                 padding: 15px;
                 margin: 20px auto;
                 width: 60%;
